@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Green Grow" />
+    <meta name="description" content="Aplicación de agricultura en casa" />
+    <meta name="keywords" content="Hidroponía,Agricultura en Interiores,Peru" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="Spanish" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="author" content="Green Grow" />
+    <!-- TITLE -->
+    <title>ARQUECO</title>
+    <!-- LINKS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center h1 fw-bold" href="#">
+          <img
+            src="logo.png"
+            alt="logo"
+            width="80"
+            height="70"
+            class="d-inline-block align-text-top"
+          />
+          ARQUECO
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collaborators">Colaboradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://deploy-greengrow.firebaseapp.com">Aplicación</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Idioma
+              </a>
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="indexEN.html">Inglés</a>
+                <a class="dropdown-item" href="index.html">Español</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero" id="home">
+      <div class="content justify-content-center text-center">
+        <h1 class="text-white">
+          <span class="fw-bold level-2-title"> Arqueco: </span> Innovación en Diseño y Construcción
+        </h1>
+        <p class="paragraph text-white lead">
+          Creando Espacios Funcionales y Estéticos desde 2013
+        </p>
+        <button class="btn btn-light" onclick="window.location.href='https://forms.gle/jACgST6mbqrSjsLf7'">Solicita una Cotización</button>
+      </div>
+    </div>
+
+    <!-- SERVICES CARDS -->
+    <section class="p-5" id="services-cards">
+      <div class="container py-5">
+        <h2 class="text-center mb-5 level-1-title fw-bold"> Ofrecemos </h2>
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Arquitectura y Diseño de Interiores</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Remodelación de Interiores y Exteriores</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Construcción de Viviendas Residenciales</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Construcción de Edificios Comerciales</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Asesoría en Normativas y Permisos</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 d-flex align-items-center justify-content-center card-bg">
+              <div class="card-body">
+                <h3 class="card-title level-2-title fw-bold text-dark">Gestión de Costos y Presupuestos</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="p-5" id="services">
+      <div class="container py-5">
+        <h1 class="text-center mb-5 level-1-title fw-bold">
+          Nuestros servicios
+        </h1>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card p-5 h-100">
+              <div class="card-body text-center d-flex flex-column">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-building" style="color: #f5971c"></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">Diseño Arquitectónico</h2>
+                <p class="card-text paragraph lead flex-grow-1">
+                  Creación de planos y diseños personalizados para proyectos residenciales, comerciales e industriales. Combinamos estética y funcionalidad, cumpliendo con las normativas locales y necesidades específicas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card p-5 h-100">
+              <div class="card-body text-center d-flex flex-column">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-screwdriver-wrench" style="color: #f5971c"></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">
+                  Ingeniería
+                </h2>
+                <p class="card-text paragraph lead flex-grow-1">
+                  Servicios de ingeniería civil, estructural y eléctrica, asegurando la calidad y seguridad en cada proyecto. Realizamos cálculos precisos y supervisamos todas las etapas para garantizar la integridad estructural.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card p-5 h-100">
+              <div class="card-body text-center d-flex flex-column">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-globe" style="color: #f5971c"></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">Gestión de Proyectos</h2>
+                <p class="card-text paragraph lead flex-grow-1">
+                  Planificación y gestión integral de proyectos, desde la concepción hasta la finalización. Coordinamos presupuestos, cronogramas y comunicación con contratistas para asegurar una entrega puntual y dentro del presupuesto.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card p-5 h-100">
+              <div class="card-body text-center d-flex flex-column">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-clipboard-question" style="color: #f5971c"></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">Consultoría Técnica</h2>
+                <p class="card-text paragraph lead flex-grow-1">
+                  Ofrecemos servicios de consultoría técnica para ayudar a tomar decisiones informadas en cada etapa del proyecto. Proporcionamos análisis detallados, evaluaciones de viabilidad y recomendaciones técnicas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="bg-light p-5" id="about">
+      <div class="container py-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md">
+            <a href="#">
+              <img
+                class="img-fluid img-thumbnail"
+                src="business.png"
+                alt="imagen que representa a una empresa"
+              />
+            </a>
+          </div>
+          <div class="col-md p-5">
+            <h1 class="level-1-title fw-bold">¿Quiénes somos?</h1>
+            <p class="paragraph lead">
+              Arqueco S.A.C. es una empresa dedicada a ofrecer servicios de arquitectura e ingeniería, con un enfoque en la calidad y la innovación. 
+            </p>
+            <p class="paragraph lead">
+              Desde nuestra fundación en 2013, hemos trabajado en diversos proyectos, combinando diseño estético y funcionalidad para satisfacer las necesidades de nuestros clientes.
+            </p>
+            <a href="#" class="btn btn-success mt-3 " id="a1" >
+              Leer más <i class="fa-solid fa-chevron-right" ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLABORADORES -->
+    <section class="p-5 bg-success" id="collaborators">
+      <div class="container py-5">
+        <h1 class="text-center level-1-title-white fw-bold">Nuestros Colaboradores</h1>
+
+        <p class="lead text-center text-white mb-5 paragraph">
+          Conoce al talentoso equipo que impulsa nuestros proyectos hacia el éxito.
+        </p>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card bg-light flex-fill">
+              <div class="card-body text-center d-flex flex-column p-5">
+                <img class="img-fluid img-thumbnail mb-3" src="persona1.jpg" alt="foto de Ana García"/>
+                <h3 class="card-title mb-3 level-2-title fw-bold">Ana García</h3>
+                <h4 class="card-subtitle mb-3">Especialista en Arquitectura</h4>
+                <p class="card-text paragraph flex-grow-1">
+                  Ana cuenta con más de 10 años de experiencia en diseño y gestión de proyectos arquitectónicos. Su enfoque en la innovación y la sostenibilidad ha sido clave en la realización de proyectos residenciales y comerciales de alta calidad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card bg-light flex-fill">
+              <div class="card-body text-center d-flex flex-column p-5">
+                <img class="img-fluid img-thumbnail mb-3" src="persona2.jpg" alt="foto de Luis Pérez"/>
+                <h3 class="card-title mb-3 level-2-title fw-bold">Luis Pérez</h3>
+                <h4 class="card-subtitle mb-3">Ingeniero Civil</h4>
+                <p class="card-text paragraph flex-grow-1">
+                  Luis es un experto en construcción y supervisión de obras, con un enfoque en la sostenibilidad. Ha liderado numerosos proyectos de infraestructura, asegurando el cumplimiento de los estándares de calidad y seguridad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card bg-light flex-fill">
+              <div class="card-body text-center d-flex flex-column p-5">
+                <img class="img-fluid img-thumbnail mb-3" src="persona3.jpg" alt="foto de Marta Rodríguez"/>
+                <h3 class="card-title mb-3 level-2-title fw-bold">Marta Rodríguez</h3>
+                <h4 class="card-subtitle mb-3">Consultora Técnica</h4>
+                <p class="card-text paragraph flex-grow-1">
+                  Marta posee una amplia experiencia en análisis de viabilidad y optimización de proyectos constructivos. Su habilidad para proporcionar análisis detallados y recomendaciones técnicas ha sido fundamental en el éxito de múltiples proyectos de construcción.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD 
+    <section class="p-5 bg-light" id="download">
+      <div class="container py-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md">
+            <a href="#">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/images/download.png"
+                alt="imagen que representa una descarga"
+              />
+            </a>
+          </div>
+          <div class="col-md p-5">
+            <h1 class="level-1-title fw-bold">Obtén nuestra aplicación</h1>
+            <p class="paragraph lead">
+              ¡Lleva la revolución verde contigo! Descarga nuestra aplicación
+              GrowGenius y adéntrate en el emocionante mundo de la agricultura
+              en interiores. Aprovecha las ventajas de la educación en línea,
+              accede a recursos prácticos y únete a una comunidad de apasionados
+              por la hidroponía, todo en la palma de tu mano.
+            </p>
+
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-6 col-lg-6 mb-3">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/google-play-badge.png"
+                    alt="Disponible en Google Play"
+                    width="70%"
+                  />
+                </a>
+              </div>
+
+              <div class="col-md-6 col-lg-6 mb-3">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/app-store-badge.png"
+                    alt="Disponible en App Store"
+                    width="70%"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!-- PORTAFOLIO -->
+<!-- PORTAFOLIO -->
+<section class="p-5 bg-light" id="portfolio">
+  <div class="container py-5">
+    <h1 class="text-center mb-5 level-1-title fw-bold">Nuestro Portafolio</h1>
+    <p class="text-center paragraph lead mb-5">
+      Aquí puedes ver algunos de nuestros proyectos más destacados.
+    </p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="vi1.jpg" class="card-img-top" alt="Residencia Moderna">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title level-2-title">Residencia Moderna</h5>
+            <p class="card-text paragraph">Diseño y construcción de una vivienda unifamiliar con enfoque en sostenibilidad y eficiencia energética.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="vi2.webp" class="card-img-top" alt="Vivienda Sustentable">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title level-2-title">Vivienda Sustentable</h5>
+            <p class="card-text paragraph">Proyecto de vivienda que integra materiales ecológicos y tecnologías de ahorro energético.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="vi3.jpg" class="card-img-top" alt="Remodelación Integral de Interiores">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title level-2-title">Remodelación Integral de Interiores</h5>
+            <p class="card-text paragraph">Transformación de espacios interiores con un enfoque en diseño contemporáneo y funcionalidad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="vi4.jpg" class="card-img-top" alt="Edificio Comercial de Cuatro Pisos">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title level-2-title">Edificio Comercial de Cuatro Pisos</h5>
+            <p class="card-text paragraph">Diseño y construcción de un edificio comercial multifuncional de cuatro pisos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer
+      class="page-footer p-5 text-md-left bg-dark text-white"
+      id="contact"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h1
+              class="text-uppercase font-weight-bold mb-4 level-1-title-white fw-bold"
+            >
+              ARQUECO
+            </h1>
+            <p class="text-white paragraph">
+              Arqueco S.A.C. es una empresa dedicada a ofrecer servicios de arquitectura e ingeniería con un enfoque en la calidad y la innovación. Nuestra misión es crear espacios funcionales y estéticos que cumplan con las expectativas de nuestros clientes. "Innovación y Calidad en Cada Proyecto."
+            </p>
+            <a href="#"
+              ><i class="fa-brands fa-facebook text-dark mx-1 lead"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-linkedin text-dark mx-1 lead"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter text-dark mx-1 lead"></i
+            ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <h5 class="text-uppercase font-weight-bold mb-4">
+              Nuestras redes sociales
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook mx-1 lead text-white"> </i
+                  >Facebook</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#"
+                  ><i class="fa-brands fa-instagram mx-1 lead text-white"> </i
+                  >Instagram</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#"
+                  ><i class="fa-brands fa-tiktok mx-1 lead text-white"> </i
+                  >TikTok</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-xs-12 location">
+            <h5 class="text-uppercase font-weight-bold mb-4" >Contacto</h5>
+            <p class="d-flex align-items-center">
+              <i class="fa-solid fa-location-dot text-success mx-2 lead" ></i>
+              Calle Toulón 280 int.201- La Molina - Lima, Perú.
+            </p>
+            <p class="d-flex align-items-center">
+              <i class="fa-solid fa-phone text-success mx-2 lead"></i> (+51) 946874951
+            </p>
+            <p class="d-flex align-items-center">
+              <i class="fa-solid fa-envelope text-success mx-2 lead"></i>
+              arqueco20@outlook.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">© 2024 Arqueco S.A.C. Todos los derechos reservados.</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
